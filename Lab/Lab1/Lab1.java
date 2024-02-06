@@ -19,7 +19,8 @@ class Lab1 {
                 x[1] = h.get(addVal);
                 break;
             }else{
-                h.put(nums[i],i);            }
+                h.put(nums[i],i);            
+            }
         }
         return x;
         
