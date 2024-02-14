@@ -1,7 +1,7 @@
 1. Insertion Sort
 Best Case O(n) array is already sorted
-Worst Case O(n^2)
-Average Case O(n^2)
+Worst Case O(n^2) none of the elements are in the right place
+Average Case O(n^2) none of the elements are in the right place
 
 2.  
 MATRIX_MULTIPLY(A, B): 
@@ -21,5 +21,6 @@ MATRIX_MULTIPLY(A, B):
 
       result[i][j] ← sum return result n*n
 
-1. Best case
-2. 
+1. Best case n^3 
+2. Worst Case n^3
+3. Average Case N^3
