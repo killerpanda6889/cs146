@@ -10,7 +10,7 @@ n^2log(n) is greater
 
 
 n^logn vs 2^(sqrt(n))
-
+n^log(n) is greater
 
  2n vs 2^(2n)
  2^(2n) the exponent grows faster
