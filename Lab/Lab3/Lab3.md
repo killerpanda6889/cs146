@@ -15,6 +15,7 @@ n^logn vs 2^(sqrt(n))
  2n vs 2^(2n)
  2^(2n) the exponent grows faster
 
+Is Prime time complexity
  1. Best Case: Number is a multiple of 2
  O(1)
 

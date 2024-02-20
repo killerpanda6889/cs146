@@ -62,3 +62,20 @@ f(n) = O(n^log2(5)-e ) where e>0 then T(n) = Θ(n^log2(5) )
 f(n) = Θ(n^log2(5) log^k(n) where k>=0 then T(n) = Θ(n log2(5) log^k+1(n))
 f(n) = Ω(n log2(5)+e ) where e>0 then T(n) = Θ(n2/logn)
 solved reccurence relation matches
+
+2. 
+yetAnotherFunc(n): 
+  if n > 1: 
+    for(i=0;i<10n;i++)   10n+1
+      doSomething;       10n
+    yetAnotherFunc(n/2); f(n/2)
+    yetAnotherFunc(n/2); f(n/2)
+
+f(n) = 2f(n/2) + 20n + 1
+a = 2
+b = 2
+f(n) = 20n + 1
+master theorem divide/conquer
+f(n) = O(n^(1-e)) where e>0 then T(n) = Θ(n)
+2f(n) = Θ(n log k n) where k>=0 then T(n) = Θ(n log k+1 n)
+f(n) = Ω(n 1+e) where e>0 then T(n) = Θ(20n + 1)
