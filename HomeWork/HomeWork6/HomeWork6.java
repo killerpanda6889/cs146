@@ -1,6 +1,7 @@
+package HomeWork.HomeWork6;
 import java.util.*;
 public class HomeWork6 {
-    public List<List<Integer>> threeSum(int[] nums) {
+    public static List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> ret = new ArrayList<List<Integer>>();
         Arrays.sort(nums);
         for(int i = 0; i < nums.length; i++){      
@@ -12,7 +13,7 @@ public class HomeWork6 {
         return ret;
     }
     
-    public void searchAdd(int[] nums, int target, int x, List<List<Integer>> subList) {
+    public static void searchAdd(int[] nums, int target, int x, List<List<Integer>> subList) {
         int left = x+1;
         int right = nums.length-1;
         while(left < right){
@@ -36,5 +37,10 @@ public class HomeWork6 {
                 left++;
             }
         }
+    }
+    public static void main(String[] args) {
+        int[] nums = {-0,1,1};
+        List<List<Integer>> ret = threeSum(nums);
+        System.out.println(ret);
     }
 }
