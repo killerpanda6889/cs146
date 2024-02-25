@@ -1,8 +1,8 @@
-package HomeWork.HomeWork8;
+package HomeWork.HomeWork7;
 
 import java.util.*;
 
-public class HomeWork8{
+public class HomeWork7{
     public static int minMeetingRooms(int[][] intervals) {
         HashMap<Integer, Integer> map = new HashMap<Integer,Integer>(); // Key --> Minute Value --> meetings at minute
         for(int i = 0; i < intervals.length; i++){
