@@ -1,12 +1,21 @@
 package HomeWork.HomeWork9;
 
-import javax.swing.tree.TreeNode;
 
 public class HomeWork9{
     public static void main(String[] args) {
-        
+        TreeNode root = new TreeNode(6);
+        root.left = new TreeNode(2);
+        root.right = new TreeNode(8);
+        root.left.left = new TreeNode(0);
+        root.left.right = new TreeNode(4);
+        root.left.right.left = new TreeNode(3);
+        root.left.right.right = new TreeNode(5);
+        root.right.left = new TreeNode(7);
+        root.right.right = new TreeNode(9);
+        System.out.println(lowestCommonAncestor(root,root.right.left, root.right.right).val + " is the lowest common ancestor");
+
     }
-    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+    public static TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         int lower;
         int higher;
         if(p.val < q.val){
@@ -28,28 +37,18 @@ public class HomeWork9{
             }
         }
     }
-    public class TreeNode {
-
-        int val;
-   
-        TreeNode left;
-   
-        TreeNode right;
-   
-        TreeNode() {}
-   
-        TreeNode(int val) { this.val = val; }
-   
-        TreeNode(int val, TreeNode left, TreeNode right) {
-   
-            this.val = val;
-   
-            this.left = left;
-   
-            this.right = right;
-   
-        }
-   
-     }
+    
    
 }
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode() {}
+    TreeNode(int val) { this.val = val; }
+    TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
+ }
