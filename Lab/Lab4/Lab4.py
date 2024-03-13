@@ -3,6 +3,7 @@ class TreeNode(object):
          self.val = val
          self.left = left
          self.right = right
+        
 def main():
     root = TreeNode(4)
     root.left = TreeNode(3)
