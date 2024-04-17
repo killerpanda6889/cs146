@@ -21,18 +21,18 @@ public class HomeWork11{
         }
         return image;
     }
-    public static void main(String[] args){
-        int[][] image = {
-            {1, 1, 1, 1},
-            {1, 1, 0, 0},
-            {1, 0, 1, 0},
-            {1, 0, 0, 1}
-        };
+    // public static void main(String[] args){
+    //     int[][] image = {
+    //         {1, 1, 1, 1},
+    //         {1, 1, 0, 0},
+    //         {1, 0, 1, 0},
+    //         {1, 0, 0, 1}
+    //     };
 
-        int sr = 1; // Starting row
-        int sc = 1; // Starting column
-        int color = 2; // Color to fill
+    //     int sr = 1; // Starting row
+    //     int sc = 1; // Starting column
+    //     int color = 2; // Color to fill
         
 
-    }
+    // }
 }
